@@ -75,17 +75,12 @@ margin: 0;
 padding-bottom: 40px;
 }
 
-.logo {
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), 
-    url(../img/hero-img/hero1x.jpg);
-}
 
 .hero-img {
 max-width: 375px;
 top: 442px;
 left: 0;
-background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), 
-    url(../img/hero-img/hero1x.jpg)
+background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));
 }
   
 
