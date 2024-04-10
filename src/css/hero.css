@@ -52,8 +52,11 @@
 }
 
 .hero-wrap {
-    padding-top: 100px;
-    
+    padding-top: 100px;    
+}
+
+@media screen and (min-width: 768px) {
+    padding-top: 122px;
 }
 
 .hero-title {
@@ -66,20 +69,33 @@ color: #FBFBFB;
 margin-bottom: 20px;
 }
 
+@media screen and (min-width: 768px) {
+    .hero-title {
+        font-size: 76px;
+        margin-bottom: 25px;
+    }
+}
+
 .hero-text {
     font-weight: 500;
 font-size: 14px;
 line-height: 129%;
 color: #FBFBFB;
 margin: 0;
-padding-bottom: 40px;
+margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-text {
+        font-size: 16px;
+        line-height: 125%;
+        margin-bottom: 50px;
+    }
 }
 
 
 .hero-img {
 max-width: 375px;
-top: 442px;
-left: 0;
 background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));
 }
   
