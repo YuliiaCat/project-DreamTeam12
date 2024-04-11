@@ -10,11 +10,11 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.container-advertisement{
+.advertisement-container{
     padding: 0px 10px;
     position: relative;
 }
-.text-advertisement{
+.advertisement-text{
     font-weight: 600;
     font-size: 48px;
     line-height: 1;
@@ -38,10 +38,10 @@
     z-index: -1;
 }
 @media screen and (min-width: 768px) {
-.container-advertisement{
+.advertisement-container{
     padding: 0px 16px;
 }
-.text-advertisement{
+.advertisement-text{
     font-size: 64px;
     line-height: 1.1;
     padding-left: 16px;
@@ -54,7 +54,7 @@
 }
 }
 @media screen and (min-width: 1280px) {
-.text-advertisement{
+.advertisement-text{
    font-size: 76px;
    line-height: 1.05;
    padding-left: 13px;
