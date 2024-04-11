@@ -42,6 +42,7 @@
         font-size: 16px;
         line-height: 1.2;
         margin-bottom: 50px;
+        max-width: 603px;
     }
 }
 
@@ -55,9 +56,6 @@
         background-color: #576F35;
         background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
         url(../img/hero-img/hero1x-tab.jpg);
-        max-width: 502px;
-
-
     }
     
     @media screen and (min-device-pixel-ratio: 2),
@@ -76,13 +74,13 @@
 @media screen and (min-width: 1280px) {
     .hero-title {
         margin-bottom: 128px;
+        max-width: 502px;
     }
 
     .hero {
         background-image: linear-gradient( to right, #576F35 0%, #576F35 50%,
         transparent 50%, transparent 100%), url(../img/hero-img/hero1x-desk.jpg);
         background-position: right; 
-        max-width: 603px;
     }  
 
     .hero-text {
