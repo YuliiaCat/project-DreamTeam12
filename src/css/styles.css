@@ -21,6 +21,7 @@
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
+  scroll-behavior: smooth;
 
   color: #fbfbfb;
   background-color: #fff;
@@ -37,7 +38,7 @@
 }
 
 .container {
-  padding: 0 20px;
+  min-height: 320px;
   margin: 0 auto;
 }
 
@@ -50,7 +51,6 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    padding: 0 32px;
   }
 
   .section {
@@ -61,7 +61,6 @@
 @media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
-    padding: 0 100px;
   }
 }
 
