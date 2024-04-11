@@ -1,0 +1,77 @@
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.container-discount{
+    padding: 80px 10px 80px 10px;
+    width: 375px;
+    height: 469px;
+}
+
+.text-discount{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    padding: 3px 10px 0 10px;
+    background-color: #576f35;
+    border-radius: 12px;
+    width: 355px;
+    height: 102px;
+}
+.discount-part-text{
+    color: #141414;
+    
+}   
+
+
+
+@media screen and (min-width: 768px) {
+.container-discount{
+    padding: 100px 16px;
+    width: 768px;
+    height: 488px;
+}
+
+.text-discount{
+    font-size: 64px;
+    line-height: 1.09;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 736px;
+    height: 86px;
+ 
+}
+}
+
+@media screen and (min-width: 1280px) {
+    .container-discount{
+     padding: 100px;
+     width: 1280px;
+     height: 440px;
+
+   }
+   .text-discount{
+   font-size: 76px;
+   line-height: 1.05;
+   padding-left: 13px;
+   padding-right: 0;
+   padding-top: 0;
+   width: 808px;
+   height: 86px;
+}
+
+}
+
+
