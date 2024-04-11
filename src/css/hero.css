@@ -1,9 +1,22 @@
 .hero {
     background-color: #576F35;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+                      url(../img/hero-img/hero1x-mob.jpg);
+    background-repeat: no-repeat;
+    block-size: auto;
+    background-position: center bottom;
 }
 
-.hero-wrap {
-    padding: 0 20px;    
+@media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+                      url(../img/hero-img/hero2x-mob.jpg);
+    }
+}
+
+.hero-container {
+    padding-bottom: 370px;
 }
 
 .hero-title {
@@ -21,11 +34,47 @@
         font-size: 76px;
         margin-bottom: 25px;
     }
+
+    .hero {
+        background-color: #576F35;
+        background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+                          url(../img/hero-img/hero1x-tab.jpg);
+    }
+    
+    @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+        url(../img/hero-img/hero2x-tab.jpg);
+    }
+    }
+
+    .hero-container {
+        padding-bottom: 539px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
     .hero-title {
         margin-bottom: 128px;
+    }
+
+    .hero {
+        background-image: linear-gradient( to right, #576F35 0%, #576F35 50%,
+        transparent 50%, transparent 100%), url(../img/hero-img/hero1x-desk.jpg);
+    }  
+    
+    @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient( to right, #576F35 0%, #576F35 50%,
+        transparent 50%, transparent 100%), url(../img/hero-img/hero2x-desk.jpg);
+    }
+    }
+     
+    .hero-container {
+        padding-bottom: 0;
+        padding-right: 650px;
     }
 }
 
@@ -44,8 +93,3 @@
         margin-bottom: 50px;
     }
 }
-
-.hero-img {
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));
-}
-  
