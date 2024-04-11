@@ -71,11 +71,6 @@
         transparent 50%, transparent 100%), url(../img/hero-img/hero2x-desk.jpg);
     }
     }
-     
-    .hero-container {
-        padding-bottom: 0;
-        padding-right: 650px;
-    }
 }
 
 .hero-text {
