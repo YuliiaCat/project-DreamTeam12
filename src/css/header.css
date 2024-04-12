@@ -1,9 +1,11 @@
 .header {
-  background-color: #576f35;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .header-container {
-  padding: 20px 0 48px;
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -34,12 +36,8 @@
   height: 16px;
 }
 
-.header-logo-name {
-  display: inline;
-  color: inherit;
-  text-transform: uppercase;
-  font-weight: 600;
-  line-height: 1;
+.header-logo-img {
+  width: 148px;
 }
 
 .header-menu-logo {
@@ -62,7 +60,7 @@
 
 @media screen and (min-width: 768px) {
   .header-container {
-    padding: 32px 0 50px;
+    padding: 32px 0;
   }
 
   .header-logo-link {
@@ -75,10 +73,10 @@
     height: 18px;
   }
 
-  .header-logo-name {
-    font-size: 18px;
-    font-weight: 700;
+  .header-logo-img {
+    width: 168px;
   }
+
 
   .header-menu-logo {
     width: 40px;
@@ -98,7 +96,7 @@
 
 @media screen and (min-width: 1280px) {
   .header-container {
-    padding: 32px 0 154px;
+    padding: 32px 0;
   }
 
   .header-menu-logo {
@@ -153,7 +151,6 @@
     padding: 16px 32px;
     color: inherit;
     text-transform: uppercase;
-    font-family: Inter Tight;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.1;
