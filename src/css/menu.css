@@ -88,7 +88,7 @@
 }
 
 .menu-nav-link {
-  color: #fbfbfb;
+  color: inherit;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.2;
@@ -121,7 +121,7 @@
 
 .menu-btn:hover {
   background-color: transparent;
-  color: #fbfbfb;
+  color: inherit;
   border: 1px solid #fbfbfb33;
 }
 
@@ -158,13 +158,13 @@
 
   .menu-btn:hover {
     background-color: #622133;
-    color: #fbfbfb;
+    color: inherit;
     border: none;
   }
 
   .menu-btn:focus {
     background-color: #622133;
-    color: #fbfbfb;
+    color: inherit;
   }
 }
 
