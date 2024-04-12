@@ -1,4 +1,8 @@
 .hero {
+  background-color: #576F35;
+}
+
+.hero-container {
     background-color: #576F35;
     background-image: linear-gradient(
       rgba(20, 20, 20, 0.2),
@@ -10,7 +14,7 @@
 }
 
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero {
+  .hero-container {
     background-image:
       linear-gradient(
       rgba(20, 20, 20, 0.2),
