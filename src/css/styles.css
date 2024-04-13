@@ -18,13 +18,10 @@
 
 :root {
   font-family: Inter Tight, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
   scroll-behavior: smooth;
 
   color: #fbfbfb;
-  background-color: #fff;
+  background-color: #fbfbfb;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -38,13 +35,22 @@
 }
 
 .container {
-  min-height: 320px;
+  min-width: 320px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+.container-no-pad {
+  min-width: 320px;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 375px) {
   .container {
+    width: 375px;
+  }
+
+  .container-no-pad {
     width: 375px;
   }
 }
@@ -53,6 +59,10 @@
   .container {
     width: 768px;
     padding: 0 32px;
+  }
+
+  .container-no-pad {
+    width: 768px;
   }
 
   .section {
@@ -65,6 +75,24 @@
     width: 1280px;
     padding: 0 100px;
   }
+
+  .container-no-pad {
+    width: 1280px;
+    padding: 0 100px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 
