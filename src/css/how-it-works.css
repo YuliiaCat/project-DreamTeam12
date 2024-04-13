@@ -1,0 +1,115 @@
+.how-it-works {
+    font-family: "Inter Tight", sans-serif;
+}
+
+.hiw-woman-cut {
+    background-color: #7A3145;
+    padding: 40px 20px;
+}
+
+.hiw-woman-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.order {
+    background-color: #576F35;
+    padding: 80px 20px;
+}
+
+.how-order {
+    color: #FBFBFB;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: -0.01em;
+    line-height: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.how-order span {
+    color: rgba(251, 251, 251, 0.3);
+}
+
+.about-baskets {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.steps-list {
+    margin-top: 40px;
+}
+
+.nubmering-img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.steps-list-point {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 76px;
+    border: transparent;
+    border-radius: 15px;
+    background-color: #FBFBFB;
+    margin-bottom: 20px;
+    padding: 12px 24px;
+
+}
+
+.steps-list-text {
+    color: rgba(20, 20, 20, 0.6);
+    font-size: 12px;
+    letter-spacing: -2%;
+    padding-left: 20px;
+}
+
+.steps-list:last-child {
+    margin-bottom: 0;
+}
+
+.steps-list-text span {
+    color: #141414;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+
+    .hiw-woman-cut {
+        padding: 100px 64px;
+    }
+
+    .order {
+        padding: 100px 159px;
+    }
+
+    .how-order {
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+
+    .about-baskets {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .how-it-works {
+        display: flex;
+    }
+
+    .hiw-woman-cut {
+        padding: 100px;
+    }
+
+    .order {
+        padding: 100px 100px 160px 100px;
+    }
+}
