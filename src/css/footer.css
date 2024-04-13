@@ -1,28 +1,10 @@
-.footer .container {
-    background-color: #7a3145;
-    padding: 40px 0px;
-}
-.container {
-    max-width: 375px;
-    padding: 80px 20px;
-    margin: 0 auto;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-div {
-    display: block;
-    unicode-bidi: isolate;
-}
 .footer {
-color: #fbfbfb;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.28;
+    background-color: #7a3145;
+    padding: 40px 0;
 }
 .footer-info {
     margin-bottom: 80px;
+
 }
 .footer-first-div {
     margin-bottom: 40px;
@@ -35,6 +17,7 @@ line-height: 1.28;
 
 .footer-second-div {
     width: 215px;
+
 }
 .footer-nav {
     display: block;
@@ -48,8 +31,6 @@ line-height: 1.28;
 }
 .footer-contacs {
     width: 179px;
-}
-address {
     display: block;
     font-style: italic;
     unicode-bidi: isolate;
@@ -71,7 +52,7 @@ address {
     letter-spacing: -.18px;
 }
 @media screen and (min-width:1280px) {
-    .footer .cotainer {
+    .footer {
         padding: 50px 100px;
     }
 
@@ -111,7 +92,7 @@ address {
         font-size: 32px;
         letter-spacing: -.48px;
     }
-    .cotainer {
+    .container {
         max-width: 375px;
         padding: 100px 32px;
         margin: 0 auto;
