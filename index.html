@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <script type="module" crossorigin src="/project-DreamTeam12/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-DreamTeam12/assets/index-94d4205c.css">
+    <link rel="stylesheet" href="/project-DreamTeam12/assets/index-a5c33d3a.css">
   </head>
   <body>
     <header class="header">
@@ -94,7 +94,10 @@
 </div>
 
       <section class="how-it-works">
+  
 </section>
+
+
       <section id="advertisement" class="advertisement section">
   <div class="advertisement-container container">
     <h2 class="visually-hidden">Advertisement</h2>
@@ -266,8 +269,59 @@
   </div>
 </section>
 
-      <section class="your order">
+      <section class="your-order section">
+  <div class="your-order-wrapper container">
+    <h2 class="your-order-title">Fresh <span class="your-order-title-span">Harvest</span> Box has got you covered</h2>
+    <p class="your-order-description">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
+    <div class="your-order-elements">
+    <form class="your-order-form">
+      <h3 class="form-title">Ordering <span class="span-from">from us</span> is quick and easy! Fill out <span class="span-form">the form</span> below and we will contact you !</h3>
+      <label for="user-name" class="your-order-label"></label>
+      <input type="text" name="user-name" class="your-order-input" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" id="user-name" placeholder="Full Name" required>
+      <label for="user-email" class="your-order-label"></label>
+      <input type="email" name="user-email" class="your-order-input" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" id="user-email" placeholder="Email" required>
+      <label for="user-comment" class="your-order-label"></label>
+      <textarea name="user-comment" class="your-order-input user-comment" id="user-comment" placeholder="Comment"></textarea>
+      <button class="form-btn" type="submit">Send</button>
+    </form>
+    <div class="your-order-social">
+      <picture>
+        <source
+          srcset="/img/your-order/desk1.jpg 1x,
+            /img/your-order/desk1.jpg 2x
+            "
+          media="(min-width: 1280px)"
+        >
+        <source
+          srcset="/project-DreamTeam12/assets/tab1-0bee4983.jpg 1x, /project-DreamTeam12/assets/tab2-a8337c3e.jpg 2x"
+          media="(min-width: 768px)"
+        >
+        <source
+          srcset="/project-DreamTeam12/assets/mob1-5f784055.jpg 1x, /project-DreamTeam12/assets/mob2-e0259b9c.jpg 2x"
+          media="(max-width: 767px)"
+        >
+        <img
+          class="your-order-image"
+          src="/img/your-order/desk1.jpg"
+          alt="Make fruit fresh"
+        >
+      </picture>
+      <p class="social-link-text">Follow us on our social networks:</p>
+      <ul class="soc-links">
+        <li class="slash"><a href="https://www.instagram.com/goitclub/" class="soc-link" target="_blank">instagram</a> 
+          <p>/</p>
+        </li>
+
+        <li class="slash"><a href="https://www.facebook.com/goITclub/" class="soc-link" target="_blank">facebook</a> 
+          <p>/</p>
+        </li>
+        <li><a href="https://www.youtube.com/c/GoIT" class="soc-link" target="_blank">youtube</a></li>
+      </div>
+    </div>
+  </div>
 </section>
+
+
     </main>
 
     <footer class="footer">
