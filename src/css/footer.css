@@ -1,8 +1,8 @@
-.footer .cotainer {
+.footer .container {
     background-color: #7a3145;
     padding: 40px 0px;
 }
-.cotainer {
+.container {
     max-width: 375px;
     padding: 80px 20px;
     margin: 0 auto;
@@ -32,22 +32,11 @@ line-height: 1.28;
     align-items: center;
     margin-bottom: 14px;
 }
-a {
-    color: currentColor;
-    text-decoration: none;
-}
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-}
+
 .footer-second-div {
     width: 215px;
 }
-nav {
+.footer-nav {
     display: block;
     unicode-bidi: isolate;
 }
@@ -65,20 +54,7 @@ address {
     font-style: italic;
     unicode-bidi: isolate;
 }
-.footer-the-end {
-    display: flex;
-    gap: 49px;
-}
-.footer-the-end-list {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 8px;
-}
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+
 .footer-nav-list {
     margin-bottom: 40px;
 }
@@ -98,26 +74,11 @@ ul {
     .footer .cotainer {
         padding: 50px 100px;
     }
-    .footer-info {
-        gap: 302px;
-        margin-bottom: 125px;
-    }
-    .footer-second-div {
-        width: 513px;
-        flex-direction: row;
-        gap: 121px;
-    }
-    .cotainer {
-        max-width: 1280px;
-        padding: 100px;
-        margin: 0 auto;
-    }
+
     
 }
 @media screen and (min-width: 768px) {
-    .footer .cotainer {
-        padding: 32px;
-    }
+
     .footer {
         font-size: 16px;
         line-height: 1.25;
