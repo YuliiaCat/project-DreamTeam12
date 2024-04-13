@@ -1,23 +1,23 @@
 <section class="your-order section">
-  <div class="container">
+  <div class="order-container" >
     <div class="your-order-text">
       <h2 class="your-order-title">Fresh <span class="harvest">Harvest</span> Box has got you covered</h2>
       <p class="your-order-description">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
     </div>
     <div class="your-order-form">
       <form class="contacts-form">
-        <h3 class="form-title">Ordering <span class="span-from">from us</span> is quick and easy! Fill out <span class="span-form">the form</span> below and we will contact you !</h3>
+        <h3 class="form-title">Ordering <span class="span-from">from us</span> is quick and easy! Fill out <span class="the-form">the form</span> below and we will contact you !</h3>
         <label for="full-name" class="form-label"></label>
-          <input type="text" name="user-name" class="form-input" id="full-name" placeholder="Full Name">
+          <input class="input-order" type="text" name="user-name"  id="full-name" placeholder="Full Name" >
         <label for="email" class="form-label"></label>
-          <input type="email" name="email" class="form-input" id="email" placeholder="Email">
+          <input class="input-order" type="email" name="email"  id="email" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
         <label for="text-comment" class="form-label user-comment"></label>
-          <textarea name="text-comment" class="form-input" id="text-comment" placeholder="Comment"></textarea>
-        <button class="form-btn" type="submit">Send</button>
+          <textarea class="textarea-order" name="text-comment"  id="text-comment" placeholder="Comment"></textarea>
+        <button class="button-order" type="submit">SEND</button>
       </form>
     </div>
     <div class="following-link">
-      <picture>
+      <picture class="your-order-image">
         <source
           srcset="/img/your-order-img/your-order-desc-1x.jpg 1x,
           /img/your-order-img/your-order-desc-2x.jpg 2x
@@ -40,10 +40,16 @@
           class="your-order-image"
           src="/img/your-order-img/your-order-tab-1x.jpg"
           alt="Make fresh"
-          width="273"
+          width="295"
         >
       </picture>
-      <p class="following-text">Follow us on our social networks: <span class="social-list">instagram / facebook / youtube</span></p>
+      <p class="network-text">Follow us on our social networks:
+        <Ul class="network-list">
+          <li class="network-item">
+            instagram /</li>
+          <li class="network-item">facebook /</li>
+          <li class="network-item">youtube</li>
+        </Ul> 
     </div>
   </div>
 </section>
