@@ -1,13 +1,13 @@
 .reviews {
-  background-color: #fbfbfb;
-  padding: 80px 20px;
+  /* background-color: #fbfbfb; */
+  /* padding: 80px 20px; */
 }
-
+/* 
 .container {
   max-width: 320px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 .reviews-customers {
   display: flex;
@@ -41,7 +41,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  list-style: none;
+  text-align: center;
+  /* list-style: none; */
 }
 
 .reviews-item-mob {
@@ -50,7 +51,7 @@
   padding: 20px 16px;
   width: 335px;
   height: 258px;
-  background-color: #fbfbfb;
+  /* background-color: #fbfbfb; */
   align-items: center;
   flex-direction: column;
 }
@@ -122,8 +123,8 @@
 .reviews-list {
   flex-wrap: nowrap;
   gap: 18px;
-  justify-content: space-around;
-  align-items: baseline;
+  /* justify-content: space-around; */
+  /* align-items: baseline; */
 }
 
 .reviews-item-mob {
@@ -137,7 +138,7 @@
   padding: 20px 16px;
   width: 343px;
   height: 258px;
-  background-color: #fbfbfb;
+  /* background-color: #fbfbfb; */
   align-items: center;
   flex-direction: column;
   display: block;  
@@ -161,15 +162,15 @@
 }
 
 @media screen and (min-width: 1280px) {
-.reviews {
+/* .reviews {
 padding: 100px 100px;
-}
+} */
 
-.container {
+/* .container {
   width: 1280px; 
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 .reviews-customers {
   width: 553px;
@@ -186,12 +187,12 @@ padding: 100px 100px;
   margin-bottom: 50px;
 }
 
-.reviews-list {
+/* .reviews-list {
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: baseline;
   gap: 25px;
-}
+} */
 
 .reviews-item-mob {
   width: 343px;
@@ -203,7 +204,7 @@ padding: 100px 100px;
   padding: 20px 16px;
   width: 343px;
   height: 258px;
-  background-color: #fbfbfb;
+  /* background-color: #fbfbfb; */
   align-items: center;
   flex-direction: column;
   display: block;
@@ -215,7 +216,7 @@ padding: 100px 100px;
   padding: 20px 16px;
   width: 343px;
   height: 258px;
-  background-color: #fbfbfb;
+  /* background-color: #fbfbfb; */
   align-items: center;
   flex-direction: column;
   display: block;
