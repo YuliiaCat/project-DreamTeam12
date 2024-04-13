@@ -1,49 +1,56 @@
 <section class="your-order section">
-  <div class="container">
-    <div class="your-order-text">
-      <h2 class="your-order-title">Fresh <span class="harvest">Harvest</span> Box has got you covered</h2>
-      <p class="your-order-description">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
-    </div>
-    <div class="your-order-form">
-      <form class="contacts-form">
-        <h3 class="form-title">Ordering <span class="span-from">from us</span> is quick and easy! Fill out <span class="span-form">the form</span> below and we will contact you !</h3>
-        <label for="full-name" class="form-label"></label>
-          <input type="text" name="user-name" class="form-input" id="full-name" placeholder="Full Name">
-        <label for="email" class="form-label"></label>
-          <input type="email" name="email" class="form-input" id="email" placeholder="Email">
-        <label for="text-comment" class="form-label user-comment"></label>
-          <textarea name="text-comment" class="form-input" id="text-comment" placeholder="Comment"></textarea>
-        <button class="form-btn" type="submit">Send</button>
-      </form>
-    </div>
-    <div class="following-link">
+  <div class="your-order-wrapper container">
+    <h2 class="your-order-title">Fresh <span class="your-order-title-span">Harvest</span> Box has got you covered</h2>
+    <p class="your-order-description">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
+    <div class="your-order-elements">
+    <form class="your-order-form">
+      <h3 class="form-title">Ordering <span class="span-from">from us</span> is quick and easy! Fill out <span class="span-form">the form</span> below and we will contact you !</h3>
+      <label for="user-name" class="your-order-label"></label>
+      <input type="text" name="user-name" class="your-order-input" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" id="user-name" placeholder="Full Name" required>
+      <label for="user-email" class="your-order-label"></label>
+      <input type="email" name="user-email" class="your-order-input" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" id="user-email" placeholder="Email" required>
+      <label for="user-comment" class="your-order-label"></label>
+      <textarea name="user-comment" class="your-order-input user-comment" id="user-comment" placeholder="Comment"></textarea>
+      <button class="form-btn" type="submit"><span class="text-btn">Send</span></button>
+    </form>
+    <div class="your-order-social">
       <picture>
         <source
-          srcset="/img/your-order-img/your-order-desc-1x.jpg 1x,
-          /img/your-order-img/your-order-desc-2x.jpg 2x
-          "
+          srcset="/img/your-order/desk1.png 1x,
+            /img/your-order/desk1.png 2x
+            "
           media="(min-width: 1280px)"
         >
         <source
-          srcset="/img/your-order-img/your-order-tab-1x.jpg 1x,
-          /img/your-order-img/your-order-tab-2x.jpg 2x
-          "
+          srcset="/img/your-order/tab1.png 1x,
+            /img/your-order/tab2.png 2x
+            "
           media="(min-width: 768px)"
         >
         <source
-          srcset="/img/your-order-img/your-order-mob-1x.jpg 1x,
-          /img/your-order-img/your-order-mob-2x.jpg 2x
-          "
+          srcset="/img/your-order/mob1.png 1x,
+            /img/your-order/mob2.png 2x
+            "
           media="(max-width: 767px)"
         >
         <img
           class="your-order-image"
-          src="/img/your-order-img/your-order-tab-1x.jpg"
-          alt="Make fresh"
-          width="273"
+          src="/img/your-order/desk1.png"
+          alt="Make fruit fresh"
+          width="427"
         >
       </picture>
-      <p class="following-text">Follow us on our social networks: <span class="social-list">instagram / facebook / youtube</span></p>
+      <p class="social-link-text">Follow us on our social networks:</p>
+      <ul class="soc-links">
+        <li class="slash"><a href="https://www.instagram.com/goitclub/" class="soc-link">instagram</a> 
+          <p>/</p>
+        </li>
+
+        <li class="slash"><a href="https://www.facebook.com/goITclub/" class="soc-link">facebook</a> 
+          <p>/</p>
+        </li>
+        <li><a href="https://www.youtube.com/c/GoIT" class="soc-link">youtube</a></li>
+      </div>
     </div>
   </div>
 </section>
