@@ -1,8 +1,8 @@
-.advertisement-container{
+.announcement-container{
   position: relative;
 }
 
-.advertisement-text {
+.announcement-text {
   font-weight: 600;
   font-size: 48px;
   line-height: 1;
@@ -13,11 +13,11 @@
   z-index: 999;
 }
 
-.advertisement-part-text{
+.announcement-part-text{
   color: #141414;
 }
 
-.advertisement-green-bcg {
+.announcement-green-bcg {
   position: absolute;
   top: 0;
   left: 10px;
@@ -30,20 +30,20 @@
 }
 
 @media screen and (min-width: 768px) {
-  .advertisement-text {
+  .announcement-text {
     font-size: 64px;
     line-height: 1.1;
     padding-top: 8px;
   }
 
-  .advertisement-green-bcg {
+  .announcement-green-bcg {
     width: 736px;
     height: 86px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .advertisement-text{
+  .announcement-text{
     font-size: 76px;
     line-height: 1.05;
     padding-left: 13px;
@@ -51,7 +51,7 @@
     padding-top: 0;
   }
 
-  .advertisement-green-bcg{
+  .announcement-green-bcg{
     width: 808px;
     left: 100px;
   }
