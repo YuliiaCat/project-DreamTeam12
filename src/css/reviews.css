@@ -35,6 +35,7 @@
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+
 }
 
 .reviews-item {
@@ -47,6 +48,7 @@
   flex-direction: column;
   display: flex;
   cursor: pointer;
+  overflow: hidden;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -104,21 +106,20 @@
 .reviews-list {
   flex-wrap: nowrap;
   gap: 18px;
-  align-items: center;
+  align-items: start;
 }
 
 .reviews-item {
   width: 343px;
-  height: 258px;
 }
 
 .item-tab {
   display: flex;
 }
-
+/*
 .reviews-data {
   margin-bottom: 20px;
-}
+} */
 
 .reviews-subtitle {
   font-size: 18px;

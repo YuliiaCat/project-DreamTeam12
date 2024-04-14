@@ -10,7 +10,7 @@
 .hero-bg-cont {
   max-width: 375px;
   height: 370px;
-  background-image: url(../img/hero-img/hero1x-mob.webp);
+  background-image: url(../img/hero-img/hero1x-mob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -20,7 +20,7 @@
 
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-bg-cont {
-    background-image: url(../img/hero-img/hero2x-mob.webp);
+    background-image: url(../img/hero-img/hero2x-mob.jpg);
   }
 }
 
@@ -50,12 +50,12 @@
   .hero-bg-cont{
     max-width: 768px;
     height: 539px;
-    background-image: url(../img/hero-img/hero1x-tab.webp);
+    background-image: url(../img/hero-img/hero1x-tab.jpg);
   }
 
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-bg-cont {
-    background-image: url(../img/hero-img/hero2x-tab.webp);
+    background-image: url(../img/hero-img/hero2x-tab.jpg);
     }
   }
 
@@ -83,7 +83,7 @@
       #576f35 50%,
       transparent 50%
       ),
-      url(../img/hero-img/hero1x-desk.webp);
+      url(../img/hero-img/hero1x-desk.jpg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -113,7 +113,7 @@
         #576f35 50%,
         transparent 50%
         ),
-        url(../img/hero-img/hero2x-desk.webp);
+        url(../img/hero-img/hero2x-desk.jpg);
     }
   }
 }
