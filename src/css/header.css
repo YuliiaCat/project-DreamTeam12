@@ -8,14 +8,7 @@
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-}
-
-.header-logo {
-  display: flex;
-  gap: 4px;
   align-items: center;
-  transition: transform 0.3s ease-in-out;
 }
 
 .header-logo:hover {
@@ -23,11 +16,11 @@
 }
 
 .header-logo-link {
-  width: 16px;
-  height: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 4px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .icon-logo {
@@ -36,8 +29,10 @@
   height: 16px;
 }
 
-.header-logo-img {
+.header-icon-name {
+  fill: #fbfbfb;
   width: 148px;
+  height: 12px;
 }
 
 .header-menu-logo {
@@ -64,19 +59,18 @@
   }
 
   .header-logo-link {
+    gap: 8px;
+  }
+
+  .header-icon-logo {
     width: 18px;
     height: 18px;
   }
 
-  .icon-logo {
-    width: 18px;
-    height: 18px;
-  }
-
-  .header-logo-img {
+  .header-icon-name {
     width: 168px;
+    height: 15px;
   }
-
 
   .header-menu-logo {
     width: 40px;
