@@ -8,7 +8,7 @@
   line-height: 1;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #fbfbfb;
+  color: inherit;
   margin-bottom: 29px;
 }
 .your-order-title-span {
@@ -19,7 +19,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
-  color: #fbfbfb;
+  color: inherit;
   margin-bottom: 40px;
 }
 
@@ -116,7 +116,7 @@ width: 100%;
   line-height: 1.2;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #fbfbfb;
+  color: inherit;
 }
 
 .form-btn:hover,
@@ -165,7 +165,7 @@ width: 100%;
   font-size: 24px;
   line-height: 1;
   letter-spacing: -0.01em;
-  color: #fbfbfb;
+  color: inherit;
 }
 
 @media screen and (min-width: 768px) {

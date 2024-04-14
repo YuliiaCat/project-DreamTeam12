@@ -83,10 +83,6 @@
       #576f35 50%,
       transparent 50%
       ),
-      linear-gradient(
-        rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)
-          ),
       url(../img/hero-img/hero1x-desk.jpg);
     background-repeat: no-repeat;
     background-position: right;
@@ -97,6 +93,7 @@
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 228px;
   }
 
   .hero-title {
@@ -106,6 +103,7 @@
 
   .hero-text {
     max-width: 472px;
+    margin-bottom: 0;
   }
 
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -115,10 +113,6 @@
         #576f35 50%,
         transparent 50%
         ),
-        linear-gradient(
-          rgba(20, 20, 20, 0.2),
-          rgba(20, 20, 20, 0.2)
-            ),
         url(../img/hero-img/hero2x-desk.jpg);
     }
   }
