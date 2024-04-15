@@ -113,6 +113,18 @@
   }
 
   .header-nav-item {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .header-nav-item:hover {
+    transform: scale(1.1);
+  }
+
+  .header-nav-link {
+    color: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
     max-width: 100%;
     padding: 12px;
     border: 1px solid #fbfbfb66;
@@ -121,20 +133,9 @@
     transition: all 0.3s ease-in-out;
   }
 
-  .header-nav-item:hover {
-    transform: scale(1.1);
+  .header-nav-link:hover,
+  .header-nav-link:focus {
     background-color: #fbfbfb;
-  }
-
-  .header-nav-link {
-    color: inherit;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: -0.02em;
-    transition: color 0.3s ease-in-out;
-  }
-
-  .header-nav-item:hover .header-nav-link {
     color: #7a3145;
   }
 
@@ -163,6 +164,7 @@
   }
 
   .header-btn:focus {
+    background-color: #fbfbfb;
     color: #7a3145b2;
   }
 }

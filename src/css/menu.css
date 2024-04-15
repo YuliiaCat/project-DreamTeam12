@@ -11,7 +11,7 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: all 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
   overflow: hidden;
 }
 
@@ -24,7 +24,7 @@
 
 .menu-content {
   width: 100%;
-  padding: 240px 0 40px;
+  padding: 40px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,12 +63,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: auto;
+  margin: auto 0;
 }
 
 .menu-nav-list {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 8px;
 }
 
@@ -76,28 +78,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 115px;
-  height: 42px;
-  border: 1px solid #fbfbfb66;
-  border-radius: 12px;
+  cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
-.menu-nav-item:hover {
-  background-color: #fbfbfb;
+.menu-nav-item:last-child {
+  margin-bottom: 0;
 }
 
 .menu-nav-link {
+  width: 115px;
+  height: 42px;
   color: inherit;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.02em;
-  cursor: pointer;
-  transition: color 0.3s ease-in-out;
+  text-align: center;
+  border: 1px solid #fbfbfb66;
+  border-radius: 12px;
+  padding: 12px 0;
+  transition: all 0.3s ease-in-out;
 }
 
-.menu-nav-item:hover .menu-nav-link {
+.menu-nav-link:hover,
+.menu-nav-link:focus {
+  background-color: #fbfbfb;
   color: #7a3145;
 }
 
@@ -119,14 +125,11 @@
   border: none;
 }
 
-.menu-btn:hover {
+.menu-btn:hover,
+.menu-btn:focus {
   background-color: transparent;
   color: inherit;
   border: 1px solid #fbfbfb33;
-}
-
-.menu-btn:focus {
-  color: #7a3145b2;
 }
 
 @media screen and (min-width: 768px) {
