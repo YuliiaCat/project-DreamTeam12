@@ -57,7 +57,7 @@
 
 .item-tab {
   display: none;
-  }
+}
 
 .item-bg {
   display: none;
@@ -89,6 +89,7 @@
 @media screen and (min-width: 768px) {
 .reviews-customers {
   width: 553px;
+  margin-bottom: 50px;
 }
 
 .reviews-title {
@@ -99,7 +100,6 @@
 
 .reviews-sub-text {
   font-size: 16px;
-  margin-bottom: 50px;
 }
 
 .reviews-list {
@@ -132,6 +132,7 @@
 @media screen and (min-width: 1280px) {
 .reviews-customers {
   width: 553px;
+  margin-bottom: 50px;
 }
 
 .reviews-title {
@@ -142,7 +143,6 @@
 .reviews-sub-text {
   font-size: 16px;
   line-height: 1.3;
-  margin-bottom: 50px;
 }
 
 .reviews-item {
