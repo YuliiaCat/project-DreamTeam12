@@ -11,16 +11,16 @@
   align-items: center;
 }
 
-.header-logo:hover {
-  transform: scale(1.2);
-}
-
 .header-logo-link {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4px;
   transition: transform 0.3s ease-in-out;
+}
+
+.header-logo-link:hover {
+  transform: scale(1.2);
 }
 
 .icon-logo {
@@ -41,6 +41,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header-menu-logo:hover {
+  transform: scale(1.2);
 }
 
 .icon-menu {
@@ -75,7 +80,6 @@
   .header-menu-logo {
     width: 40px;
     height: 40px;
-    transition: transform 0.3s ease-in-out;
   }
 
   .icon-menu {
@@ -83,9 +87,6 @@
     height: 20px;
   }
 
-  .header-menu-logo:hover {
-    transform: scale(1.2);
-  }
 }
 
 @media screen and (min-width: 1280px) {
