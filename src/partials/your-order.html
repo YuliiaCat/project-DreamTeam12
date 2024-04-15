@@ -5,31 +5,39 @@
     <div class="your-order-elements">
     <form class="your-order-form">
       <h3 class="form-title">Ordering <span class="span-from">from us</span> is quick and easy! Fill out <span class="span-form">the form</span> below and we will contact you !</h3>
-      <label for="user-name" class="your-order-label"></label>
-      <input type="text" name="user-name" class="your-order-input" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" id="user-name" placeholder="Full Name" required>
-      <label for="user-email" class="your-order-label"></label>
-      <input type="email" name="user-email" class="your-order-input" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" id="user-email" placeholder="Email" required>
-      <label for="user-comment" class="your-order-label"></label>
-      <textarea name="user-comment" class="your-order-input user-comment" id="user-comment" placeholder="Comment"></textarea>
+      <div class="form-input">
+        <label for="user-name" class="your-order-label visually-hidden">Name</label>
+      <input type="text" name="user-name" class="your-order-input" id="user-name" placeholder="Full Name" required>
+      </div>
+      <div class="form-input">
+        <label for="user-email" class="your-order-label visually-hidden">Email</label>
+        <input type="email" name="user-email" class="your-order-input input-email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" id="user-email" placeholder="Email" required>
+        <p class="text-valid">Succes!</p>
+        <p class="text-invalid">Invalid email, try again!</p>
+      </div>
+      <div class="comment-field">
+        <label for="user-comment" class="your-order-label visually-hidden">Comment</label>
+      <textarea name="user-comment" class="user-comment your-order-input" id="user-comment" placeholder="Comment"></textarea>
+      </div>
       <button class="form-btn" type="submit">Send</button>
     </form>
     <div class="your-order-social">
       <picture>
         <source
-          srcset="/img/your-order/desk1.jpg 1x, /img/your-order/desk2.jpg 2x"
+          srcset="/img/your-order/desk.webp"
           media="(min-width: 1280px)"
         >
         <source
-          srcset="/img/your-order/tab1.jpg 1x, /img/your-order/tab2.jpg 2x"
+        srcset="/img/your-order/tab.webp"
           media="(min-width: 768px)"
         >
         <source
-          srcset="/img/your-order/mob1.jpg 1x, /img/your-order/mob2.jpg 2x"
+        srcset="/img/your-order/mob.webp"
           media="(max-width: 767px)"
         >
         <img
           class="your-order-image"
-          src="/img/your-order/desk1.jpg"
+          src="/img/your-order/mob.webp"
           alt="Make fruit fresh"
         >
       </picture>
