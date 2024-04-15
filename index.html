@@ -12,7 +12,7 @@
     
     <script src="./js/main.js" defer></script>
     <script type="module" crossorigin src="/project-DreamTeam12/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-DreamTeam12/assets/index-a223a334.css">
+    <link rel="stylesheet" href="/project-DreamTeam12/assets/index-e2033901.css">
   </head>
   <body>
     <header class="header">
@@ -156,8 +156,7 @@
           </div>
 
           <img
-          srcset="/project-DreamTeam12/assets/vegetable1-1x-90715ecd.png 1x, /project-DreamTeam12/assets/vegetable1-2x-5ab74bce.png 2x"
-              src="/project-DreamTeam12/assets/vegetable1-1x-90715ecd.png"
+              src="/project-DreamTeam12/assets/vegetable1-338644d9.webp"
               alt="Eggplant"
               width="282"
               height="243"
@@ -170,11 +169,10 @@
           </div>
 
             <img
-            srcset="/project-DreamTeam12/assets/vegetable2-1x-1ab48e9e.png 1x, /project-DreamTeam12/assets/vegetable2-2x-aceb0bc2.png 2x"
-                src="/project-DreamTeam12/assets/vegetable2-1x-1ab48e9e.png"
-                alt="Leek"
-                width="282"
-                height="243"
+              src="/project-DreamTeam12/assets/vegetable2-6b175422.webp"
+              alt="Leek"
+              width="282"
+              height="243"
             >
         </li>
         <li class="vegetables-item">
@@ -184,11 +182,10 @@
           </div>
 
             <img
-            srcset="/project-DreamTeam12/assets/vegetable3-1x-7694ccf3.png 1x, /project-DreamTeam12/assets/vegetable3-2x-de434a6d.png 2x"
-                src="/project-DreamTeam12/assets/vegetable3-1x-7694ccf3.png"
-                alt="Mushrooms"
-                width="282"
-                height="243"
+              src="/project-DreamTeam12/assets/vegetable3-702da9f1.webp"
+              alt="Mushrooms"
+              width="282"
+              height="243"
             >
         </li>
         <li class="vegetables-item">
@@ -198,11 +195,10 @@
           </div>
 
             <img
-            srcset="/project-DreamTeam12/assets/vegetable4-1x-ba357a37.png 1x, /project-DreamTeam12/assets/vegetable4-2x-be194788.png 2x"
-                src="/project-DreamTeam12/assets/vegetable4-1x-ba357a37.png"
-                alt="Corn"
-                width="282"
-                height="243"
+              src="/project-DreamTeam12/assets/vegetable4-7c20b9cf.webp"
+              alt="Corn"
+              width="282"
+              height="243"
             >
         </li>
         <li class="vegetables-item">
@@ -212,8 +208,7 @@
           </div>
 
             <img
-            srcset="/project-DreamTeam12/assets/vegetable5-1x-c3308584.png 1x, /project-DreamTeam12/assets/vegetable5-2x-66d9ad54.png 2x"
-                src="/project-DreamTeam12/assets/vegetable5-1x-c3308584.png"
+              src="/project-DreamTeam12/assets/vegetable5-134fce19.webp"
                 alt="Sweet potatoes"
                 width="282"
                 height="243"
@@ -226,11 +221,10 @@
           </div>
 
             <img
-            srcset="/project-DreamTeam12/assets/vegetable6-1x-3528ea49.png 1x, /project-DreamTeam12/assets/vegetable6-2x-b992331a.png 2x"
-                src="/project-DreamTeam12/assets/vegetable6-1x-3528ea49.png"
-                alt="Carrot"
-                width="282"
-                height="243"
+              src="/project-DreamTeam12/assets/vegetable1-338644d9.webp"
+              alt="Carrot"
+              width="282"
+              height="243"
             >
         </li>
       </ul>
@@ -315,31 +309,39 @@
     <div class="your-order-elements">
     <form class="your-order-form">
       <h3 class="form-title">Ordering <span class="span-from">from us</span> is quick and easy! Fill out <span class="span-form">the form</span> below and we will contact you !</h3>
-      <label for="user-name" class="your-order-label"></label>
-      <input type="text" name="user-name" class="your-order-input" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" id="user-name" placeholder="Full Name" required>
-      <label for="user-email" class="your-order-label"></label>
-      <input type="email" name="user-email" class="your-order-input" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" id="user-email" placeholder="Email" required>
-      <label for="user-comment" class="your-order-label"></label>
-      <textarea name="user-comment" class="your-order-input user-comment" id="user-comment" placeholder="Comment"></textarea>
+      <div class="form-input">
+        <label for="user-name" class="your-order-label visually-hidden">Name</label>
+      <input type="text" name="user-name" class="your-order-input" id="user-name" placeholder="Full Name" required>
+      </div>
+      <div class="form-input">
+        <label for="user-email" class="your-order-label visually-hidden">Email</label>
+        <input type="email" name="user-email" class="your-order-input input-email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" id="user-email" placeholder="Email" required>
+        <p class="text-valid">Succes!</p>
+        <p class="text-invalid">Invalid email, try again!</p>
+      </div>
+      <div class="comment-field">
+        <label for="user-comment" class="your-order-label visually-hidden">Comment</label>
+      <textarea name="user-comment" class="user-comment your-order-input" id="user-comment" placeholder="Comment"></textarea>
+      </div>
       <button class="form-btn" type="submit">Send</button>
     </form>
     <div class="your-order-social">
       <picture>
         <source
-          srcset="/project-DreamTeam12/assets/desk1-28076cb4.jpg 1x, /project-DreamTeam12/assets/desk2-bb16bfb4.jpg 2x"
+          srcset="/project-DreamTeam12/assets/desk-d162b2c5.webp "
           media="(min-width: 1280px)"
         >
         <source
-          srcset="/project-DreamTeam12/assets/tab1-0bee4983.jpg 1x, /project-DreamTeam12/assets/tab2-a8337c3e.jpg 2x"
+        srcset="/project-DreamTeam12/assets/tab-5cfbcacf.webp "
           media="(min-width: 768px)"
         >
         <source
-          srcset="/project-DreamTeam12/assets/mob1-5f784055.jpg 1x, /project-DreamTeam12/assets/mob2-e0259b9c.jpg 2x"
+        srcset="/project-DreamTeam12/assets/mob-1c9f7a1f.webp "
           media="(max-width: 767px)"
         >
         <img
           class="your-order-image"
-          src="/project-DreamTeam12/assets/desk1-28076cb4.jpg"
+          src="/project-DreamTeam12/assets/mob-1c9f7a1f.webp"
           alt="Make fruit fresh"
         >
       </picture>
