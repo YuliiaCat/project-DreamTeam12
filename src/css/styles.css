@@ -22,6 +22,8 @@
 
   color: #fbfbfb;
   background-color: #fbfbfb;
+  --swiper-pagination-color: #141414;
+  --swiper-navigation-color: #141414;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
